@@ -20,7 +20,7 @@ services:
       - '8443:443'
     volumes:  
       - gitlab_config:/etc/gitlab
-      - gitlab_logs/logs:/var/log/gitlab
+      - gitlab_logs:/var/log/gitlab
       - gitlab_home:/var/opt/gitlab'  
     # volumes:
     #   - '$GITLAB_HOME/config:/etc/gitlab'
