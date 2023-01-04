@@ -1,10 +1,10 @@
 # docker-compose.yml
 version: '3.7'
 volumes:
-  gitlab_config
-  gitlab_logs
-  gitlab_home
-  gitlab_runner
+  gitlab_config:
+  gitlab_logs:
+  gitlab_home:
+  gitlab_runner:
   
 services:
   web:
